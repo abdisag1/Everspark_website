@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+:root {
+  --primary: 120 100% 10%; /* #003300 */
+  --secondary: 30 100% 20%; /* #663300 */
+  --accent: 120 9% 57%; /* #889982 */
+  --background: 30 12% 96%; /* #f6f4f3 */
+}
+
+.font-heading {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.scroll-mt-20 {
+  scroll-margin-top: 5rem;
+}
+
+.scroll-mt-24 {
+  scroll-margin-top: 6rem;
+}
+
+.drop-shadow-lg {
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+}
+
+html {
+  scroll-behavior: smooth;
+}
