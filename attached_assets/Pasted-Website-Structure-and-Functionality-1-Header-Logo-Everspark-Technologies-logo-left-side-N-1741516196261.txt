@@ -1,0 +1,91 @@
+Website Structure and Functionality
+1. Header:
+Logo: Everspark Technologies logo (left side).
+Navigation Bar (Center/Right): 
+oHome (Link to index.html)
+oAbout Us (Link to about.html)
+oProducts (Dropdown) 
+Electrochlorinators (Link to products.html#electrochlorinators)
+Solar Solutions (Link to products.html#solar)
+Water Disinfection Products (Link to products.html#water-disinfection)
+oServices (Link to index.html#services)
+oProjects (Link to projects.html)
+oContact Us (Link to contact.html)
+oSearch (Search bar functionality)
+Social Media Icons: Links to Everspark's social media profiles (e.g., Facebook, Twitter, LinkedIn) (right side).
+2.Home Page (index.html):
+Hero Section: 
+oCarousel Image Slider: High-quality images showcasing Everspark's projects and products.
+oOverlay Text: Brief, impactful message about Everspark's mission.
+o"Get in touch" Call-to-Action Button: Smooth scroll to the "Contact Us" section at the bottom of the page.
+Solutions Section: 
+oTitle: "Our Solutions"
+oSubsections: 
+Electrochlorinators Solutions: Description of the solutions, images, and key benefits.
+Water Disinfection Solutions: Description of the solutions, images, and key benefits.
+Solar Solutions: Description of the solutions, images, and key benefits.
+Products Section: 
+oTitle: "Our Products"
+oSubsections: 
+Electrochlorinators: Product list with images, descriptions, and "Learn More" buttons.
+Water Disinfection: Product list with images, descriptions, and "Learn More" buttons.
+Solar Solutions: Product list with images, descriptions, and "Learn More" buttons.
+Grid layout showcasing top products from each category.
+Services Section: 
+oTitle: "Our Services"
+oList of services provided by Everspark.
+Success Stories Section: 
+oTitle: "Success Stories"
+oShowcase: Brief descriptions and images of successful projects.
+o"View More Projects" Button: Link to the "Projects" page (projects.html).
+oCarousel/cards with project images, client testimonials and outcomes
+Partners Section (at the bottom): 
+oTitle: "Partners"
+oCarousel/cards with logo of partners scroll horizontally every 3 seconds
+
+3. About Us Page (about.html):
+Detailed company history, values, and team information.
+Images of the team and facilities.
+4. Products Page (products.html):
+Detailed product listings, organized by category (Electrochlorinators, Solar Solutions, Water Disinfection).
+Individual product pages with specifications, images, and downloadable brochures (if applicable).
+Anchor links for each product category (e.g., #electrochlorinators, #solar, #water-disinfection).
+5.Product detail page:
+Divide it into three sections from left to right.
+On the left side put products cataloge where there is list of different catagories
+Picture of the product in the middle
+On the left side Discribtion of the product on the left side and the datasheet clickable icon “Data sheet” which redirect to the products data sheet pdf
+At the end put related products section where there is list of similar products. 
+
+6. Services Page (services.html) or (index.html#services):
+Comprehensive descriptions of Everspark's services.
+Case studies or testimonials related to specific services.
+7. Projects Page (projects.html):
+Portfolio of completed projects with detailed descriptions and images.
+Categorization of projects (e.g., by location, type).
+8.Projects detial page (project_detail.htm):
+Image of the project
+Title of the project
+Posted by:
+Executive summary
+Sub title
+Paragraph about the project
+Sample pictures
+Paragraph about the project
+video
+
+9. Contact Us Page (contact.html):
+Company contact information (address, phone number, email).
+"Get in Touch" form.
+Embedded Google Map showing the company's location.
+10. Footer:
+Copyright information.
+Quick links to important pages (e.g., Privacy Policy, Terms of Service).
+Social media icons.
+Logo.
+Contact information.
+Use colors as a theme color:
+#003300
+#663300
+#f6f4f3
+#889982
