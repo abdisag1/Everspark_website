@@ -86,3 +86,14 @@ export function serveStatic(app: Express) {
     res.sendFile(path.resolve(distPath, "index.html"));
   });
 }
+
+// Export the app for Vercel
+const app = express();
+const server = app.listen(3000, () => {
+  log("Server is running on port 3000");
+});
+
+setupVite(app, server);
+serveStatic(app);
+
+export default app;
